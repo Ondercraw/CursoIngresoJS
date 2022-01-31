@@ -10,7 +10,7 @@ function mostrar()
 	var nombreIngresado;
 	var edadIngresada;
 
-    //toma los datos por ID
+    //toma los datos por 'ID'
 	nombreIngresado = txtIdNombre.value;
 
 	edadIngresada = txtIdEdad.value;
