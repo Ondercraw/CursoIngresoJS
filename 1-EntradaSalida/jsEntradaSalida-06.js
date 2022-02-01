@@ -32,6 +32,8 @@ function sumar()
 	//muestra el resultado de la suma
 
 	alert("El resultado de la suma es: "+ resultado);
+
+	//document.write(resultado) cambia el html por 
 }
 
 
