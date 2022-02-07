@@ -3,6 +3,8 @@ Debemos lograr tomar el importe por ID.
 Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
+/*
+
 function mostrarDescuento()
 {
 
@@ -27,7 +29,7 @@ function mostrarDescuento()
 	txtIdResultado.value = resultado;
 	
 }
-
+*/
 /*Declaro variable
 
 Entrada:
@@ -40,3 +42,27 @@ salida:
 
 -ID
 */
+
+function mostrarDescuento()
+{
+
+	var importe;
+	var resultado;
+	var descuento;
+	var descuentoPorcentaje;
+
+    importe = txtIdImporte.value;
+
+    importe = parseInt(importe);
+    
+    descuentoPorcentaje = prompt("Ingrese el descuento");
+
+	descuento = importe * descuentoPorcentaje / 100;
+	
+	resultado = importe - descuento;
+
+
+
+	alert("Su importe es " + importe + ", el descuento es de " + descuento + " y su importe con descuento es " + resultado);
+	
+}
